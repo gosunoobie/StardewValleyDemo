@@ -17,7 +17,7 @@ myIndex = index;
 
 public void Set(ItemSlot slot){
   
-
+    icon.gameObject.SetActive(true);
     icon.sprite = slot.item.Icon;
     if(slot.item.stackable == true){
         text.gameObject.SetActive(true);

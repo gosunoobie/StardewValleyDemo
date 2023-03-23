@@ -10,6 +10,6 @@ private void Awake() {
     instance = this;
 }
 public GameObject Player;
-
+public ItemContainer inventoryContainer;
 
 }

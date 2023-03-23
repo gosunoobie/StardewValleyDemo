@@ -12,6 +12,9 @@ private void Start()
 {   SetIndex();
     Show();
 }
+private void OnEnable() {
+  Show();
+}
 
 private void SetIndex(){
   for(int i =0; i < inventory.slots.Count;i++){
